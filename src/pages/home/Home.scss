@@ -1,0 +1,96 @@
+.home {
+    .features {
+      background-color: #f1fdf7;
+      display: flex;
+      justify-content: center;
+      padding: 100px 0px;
+
+      &.dark{
+        background-color: rgb(19, 84, 84);
+
+        h1{
+            color: #fff !important;
+        }
+        h2{
+            color: #fff !important;
+            text-align: left !important;
+        }
+        p{
+            color: #fff !important;
+            margin-bottom: 20px !important;
+        }
+        .title{
+            color: #fff !important;
+            font-weight: 200 !important;
+            font-size: 14px !important;
+        }
+
+        button{
+            width: max-content;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            font-size: 14px;
+            color: #fff;
+            background-color: rgb(27, 28, 28);
+            border: none;
+        }
+
+        img{
+            width: 80%;
+            float: right;
+        }
+      }
+
+      .container{
+        width: 900px;
+        display: flex;
+        align-items: center;
+        gap: 200px;
+
+        .left-item{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            &:first-child{
+                flex: 2;
+            }
+
+            &:last-child{
+                flex: 3;
+            }
+
+            h1{
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+            p{
+              font-size: 14px;
+              font-weight: 300;
+              color: gray; 
+              line-height: 26px; 
+              letter-spacing: 1px;
+            }
+            .title{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-weight: 500;
+                font-size: 16px;
+                color: gray;
+
+                img{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+      }
+  
+    }
+
+         .video{
+        width: 720px;
+    }
+}
